@@ -34,7 +34,7 @@ interface DuoToggleSwitchProps {
 
 const DuoToggleSwitch: React.FC<DuoToggleSwitchProps> = ({
   style,
-  activeColor = "#FBA928",
+  activeColor = "#A3C1AD",
   inactiveColor = "#fff",
   primaryTextStyle,
   secondaryTextStyle,
