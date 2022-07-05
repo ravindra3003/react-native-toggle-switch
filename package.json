@@ -1,0 +1,48 @@
+{
+  "name": "react-native-toggle-switch",
+  "version": "1.0.0",
+  "description": "Fully customizable animated toggle switch for React Native",
+  "keywords": [
+    "Ravindra",
+    "ravindra",
+    "react",
+    "react-native",
+    "javascript",
+    "ui-lib",
+    "rn"
+  ],
+  "homepage": "https://github.com/ravindra3003/",
+  "bugs": "https://github.com/ravindra3003/react-native-toggle-switch/issues",
+  "main": "./build/dist/DuoToggleSwitch.js",
+  "repository": "git@github.com:ravindra3003/react-native-toggle-switch.git",
+  "author": "Ravindra (ravindra3003) <0330.ravindra@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/react": "^18.0.6",
+    "@types/react-native": "^0.69.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
+    "npm-post-install": "0.0.2",
+    "prettier": "^2.1.2",
+    "prettier-format": "^3.0.3",
+    "react-native-typescript-transformer": "^1.2.13",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "build": "cd lib && tsc && cp ../package.json ../build/dist/ && Echo Build completed!",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "prettier": "cd lib && npx prettier --write . && git add .",
+    "prepare": "husky install",
+    "husky:setup": "npx husky-init && npm run husky:commitlint && npm run husky:prettier",
+    "husky:commitlint": "npx husky add .husky/commit-msg 'npx --no-install commitlint --edit'",
+    "husky:prettier": "npx husky add .husky/pre-commit 'npm run prettier'"
+  }
+}
