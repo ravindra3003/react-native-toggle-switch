@@ -1,5 +1,5 @@
 {
-  "name": "togglein-reactnative",
+  "name": "reactnative-toggleswitch",
   "version": "1.0.0",
   "description": "Fully customizable animated toggle switch for React Native",
   "keywords": [
@@ -651,5 +651,6 @@
     "yargs-parser": "^20.2.9",
     "yn": "^3.1.1",
     "yocto-queue": "^0.1.0"
-  }
+  },
+  "types": "./build/dist/DuoToggleSwitch.d.ts"
 }
