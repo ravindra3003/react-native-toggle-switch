@@ -4,8 +4,8 @@
 
 [![Fully customizable animated duo toggle switch for React Native](https://img.shields.io/badge/-Fully%20customizable%20animated%20duo%20toggle%20switch%20for%20React%20Native-lightgrey?style=for-the-badge)](https://github.com/ravindra3003/react-native-toggle-switch)
 
-[![npm version](https://img.shields.io/npm/v/react-native-duo-toggle-switch.svg?style=for-the-badge)](https://www.npmjs.com/package/switchin-react-native)
-[![npm](https://img.shields.io/npm/dt/react-native-duo-toggle-switch.svg?style=for-the-badge)](https://www.npmjs.com/package/switchin-react-native)
+[![npm version](https://img.shields.io/npm/v/switchin-react-native.svg?style=for-the-badge)](https://www.npmjs.com/package/switchin-react-native)
+<!-- [![npm](https://img.shields.io/npm/dt/react-native-duo-toggle-switch.svg?style=for-the-badge)](https://www.npmjs.com/package/switchin-react-native) -->
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
